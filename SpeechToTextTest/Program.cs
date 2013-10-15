@@ -13,7 +13,7 @@ namespace Cluster.SpeechToText
             SpeechCapture speechCapture = new SpeechCapture();
             speechCapture.DetectVolume = 30000;
             speechCapture.MaxResults = 10;
-            speechCapture.Language = "ru-RU";
+            speechCapture.Language = "en-EN";
             speechCapture.OnSpeechRecognized += speechCapture_OnSpeechRecognized;
             speechCapture.OnSpeechRecognizeFailed += speechCapture_OnSpeechRecognizeFailed;
             speechCapture.OnPeakMeter += speechCapture_OnPeakMeter;
